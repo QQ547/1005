@@ -19,7 +19,7 @@ namespace opendata
         {
             List<opendata.model.Class1> result = new List<Class1>();
             var xml = XElement.Load(@"C:\Users\user\Desktop\class1005\opendata\opendata\A17000000J-020028-cAw.xml");
-            var a = 0;
+           
             var dataset = xml.Descendants("row").ToList();
 
             for (var i = 0; i < dataset.Count; i++)
