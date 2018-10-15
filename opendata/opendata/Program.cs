@@ -10,6 +10,7 @@ namespace opendata
     {
         static void Main(string[] args)
         {
+            var a = 0;
             var dataset = findopendata();
             showopendata(dataset);
             Console.ReadKey();
